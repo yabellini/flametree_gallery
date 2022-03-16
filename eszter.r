@@ -5,10 +5,10 @@ library(flametree)
 name <- "pao"
 
 # pick a seed
-this_seed <- 42
+this_seed <- 10
 
 # pick some colours
-shades <- c("#1b2e3c", "#0c0c1e", "#74112f", "#f3e3e2")
+shades <- c("steelblue", "brown", "gray", "lightgreen")
 
 # data structure defining the trees
 dat <- flametree_grow(seed = this_seed, time = 10, trees = 10)
