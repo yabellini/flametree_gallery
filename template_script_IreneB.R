@@ -1,13 +1,13 @@
 library(flametree)
 
 # your name, without spaces or special characters
-name <- "pao"
+name <- "Irene B"
 
 # pick a seed
-this_seed <- 42
+this_seed <- 25
 
 # pick some colours
-shades <- c("#1b2e3c", "#0c0c1e", "#74112f", "#f3e3e2")
+shades <- c("dodgerblue", "darkorchid2", "goldenrod1", "darkslategray2")
 
 # data structure defining the trees
 dat <- flametree_grow(seed = this_seed, time = 10, trees = 10)
@@ -23,3 +23,4 @@ tree <- dat %>%
 tree
 # save the plot
 flametree_save(tree, filename = paste0("fig/tree_", name, ".png"))
+
