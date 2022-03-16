@@ -4,10 +4,10 @@ library(flametree)
 name <- "elio"
 
 # pick a seed
-this_seed <- 42
+this_seed <- 3453578
 
 # pick some colours
-shades <- c("#1b2e3c", "#0c0c1e", "#74112f", "#f3e3e2")
+shades <- c("#d48e15", "#7239b3", "#667885", "#452981")
 
 # data structure defining the trees
 dat <- flametree_grow(seed = this_seed, time = 10, trees = 10)
