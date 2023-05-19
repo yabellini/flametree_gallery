@@ -22,4 +22,4 @@ tree <- dat %>%
 
 tree
 # save the plot
-flametree_save(tree, filename = paste0("fig/tree_", name, ".png"))
+flametree_save(tree, filename = paste0("fig/tree_", victor, ".png"))
