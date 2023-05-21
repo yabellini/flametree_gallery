@@ -1,7 +1,7 @@
 library(flametree)
 
 # your name, without spaces or special characters
-victor <- "fern"
+name <- "victor"
 
 # pick a seed
 this_seed <- 23456
@@ -22,4 +22,4 @@ tree <- dat %>%
 
 tree
 # save the plot
-flametree_save(tree, filename = paste0("fig/tree_", victor, ".png"))
+flametree_save(tree, filename = paste0("fig/tree_", name, ".png"))
